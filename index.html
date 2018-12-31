@@ -53,7 +53,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #D3D3D3;
+  background-color: lightgrey;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -63,13 +63,13 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: black;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #818181;
 }
 
 .sidenav .closebtn {
@@ -79,7 +79,25 @@
   font-size: 36px;
   margin-left: 50px;
 }
-  </style>
+.rounded-circle {
+    border-radius: 10%;
+    min-width: 40%;
+    min-height: 40%;
+    max-width: 60%;
+    max-height: 60%
+}
+
+.icon-images {
+  width: 20px;
+  height: auto;
+  transition: transform 0.2s ease-out;
+}
+
+.icon-images:hover {
+  transform: scale(1.5);
+}
+
+</style>
   </head>
 
   
@@ -88,16 +106,37 @@
     <div class="container">
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
         <div class="container">
           <div class="col" align="center">
+            <img class="img-fluid rounded-circle" align="center" src="imgs/profile.png">
           </div>
-        
-        <img class="img-fluid" src="imgs/profile.jpg">
-        <a href="#">Background</a>
-        <a href="#">Career</a>
-        <a href="#">Interests</a>
-        <a href="#">Other</a>
-        </div>
+          <div class="row">
+          <div class="col" align="center">
+          <p> <br/> names: benjamin, ben, bengbeng, nzbengbeng, qwertert</p>
+          </div>
+          </div>
+        <a href="#">background</a>
+        <a href="#">career</a>
+        <a href="#">interests</a>
+        <a href="#">other</a>
+
+          <div class="row">
+            <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+                    <a href="mailto:yu.benjamin2@gmail.com" style="padding-right:1.2em;padding-left:1em">
+                        <img class="icon-images" src="imgs/gmail.svg">
+                    </a>
+                    <a href="https://github.com/nzbengbeng"style="padding-right:1.2em;padding-left:0em">
+                      <img class="icon-images" src="imgs/github.svg">
+                    </a>
+                    <a href="https://www.instagram.com/nzbengbeng/"style="padding-right:1.2em;padding-left:0em">
+                      <img class="icon-images" src="imgs/instagram.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/in/benjamin-yu/"style="padding-left:0em;padding-right:0em">
+                      <img class="icon-images" src="imgs/linkedin.svg">
+                    </a>
+            </nav>
+         </div>
       </div>
     </div>
 
@@ -147,9 +186,7 @@
     <div class="container">
       <div class="row">
         <div class="col" align="center">
-          <h1><p class="text-white"></p></h1>
-        </div>
-        <div class="col" align="center">
+          <p class="text-white"> (under construction)</p>
         </div>
       </div>
     </div>
