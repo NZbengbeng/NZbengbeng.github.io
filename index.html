@@ -7,10 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- All javascript stuff-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
 
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
   <!-- add fonts -->
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -28,7 +37,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    background-color: darkgrey;
+    background-color: #696969;
     font-family: 'Oswald', sans-serif !important;
   }
   .navbar-inner {
@@ -37,12 +46,62 @@
   .vertical{
     margin-top:15%;
   }
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #D3D3D3;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
   </style>
   </head>
 
   
   <body>
-    <!--This is my nav bar-->
+    <!-- side bar for About section -->
+    <div class="container">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="container">
+          <div class="col" align="center">
+          </div>
+        
+        <img class="img-fluid" src="imgs/profile.jpg">
+        <a href="#">Background</a>
+        <a href="#">Career</a>
+        <a href="#">Interests</a>
+        <a href="#">Other</a>
+        </div>
+      </div>
+    </div>
+
+    <!--This is my main nav bar-->
     <div class="container">
       <div class="row">
         <div class="col">
@@ -59,7 +118,8 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#"> <span style="font-size:16px;cursor:pointer" onclick="openNav()">About</span></a>
+          
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Projects</a>
@@ -77,9 +137,9 @@
     <div class="container">
       <div class="row">
         <div class="col" align="center">
-          <h1 class="vertical"><p class="text-white">hi, this is my website.</p></h1>
-          <p>___</p> 
-          <h3 class="text-white"> engineer & free spirit
+          <h1 class="vertical"><p class="text-white">hi.</p></h1>
+          <p class = "text-white">___</p> 
+          <h3 class="text-white"> this is my website.
         </div>
      </div>
     </div>
@@ -89,7 +149,9 @@
         <div class="col" align="center">
           <h1><p class="text-white"></p></h1>
         </div>
-     </div>
+        <div class="col" align="center">
+        </div>
+      </div>
     </div>
   </body>
 </html>
