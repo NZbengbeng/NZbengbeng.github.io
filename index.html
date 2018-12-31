@@ -1,66 +1,95 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <title>Benjamin Yu</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Benjamin Yu - Home</title>
-    <link href="static/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300:400:700" rel="stylesheet">
-    <link rel="icon" href="http://example.com/favicon.png">
-    <script src="home.js" async></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <!-- add fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+  <style>
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+  body {
+    <!--background-image: url("imgs/background.jpg");-->
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: darkgrey;
+    font-family: 'Oswald', sans-serif !important;
+  }
+  .navbar-inner {
+    background:transparent;
+  }
+  .vertical{
+    margin-top:15%;
+  }
+  </style>
   </head>
-  <body    onload="startTime()">
-    <div id="container">
-      <div id="wrap">
-        <nav class="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="me.html">Me</a></li>
-            <li><a href="emoji-blog.html">Emoji</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-        </nav>
-      
-        <div class="main">
-          <h1 class="generated run" id="animate">Hi!</h1>
-          <h1 class="generated" id="static">I'm Benjamin. I copied Jilada's website</h1>
-          <h2 class="egg-view">
-          	<span>😦</span>
-          	<span>😦</span>
-          	<span>😦</span>
-          </h2>
-          <div class="time" id="txt"></div>
-          <section class="bottom-bar">
-            <ul>
-              <li>
-                <a href="mailto:jilada.eccleston@gmail.com">
-                    <img class="icon-images" src="static/images/gmail.svg">
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/jilaada">
-                  <img class="icon-images" src="static/images/github.svg">
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/jilododo">
-                  <img class="icon-images" src="static/images/twitter.svg">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/jilaada/">
-                  <img class="icon-images" src="static/images/instagram.svg">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/jilada-eccleston/">
-                  <img class="icon-images" src="static/images/linkedin.svg">
-                </a>
-              </li>
-            </ul>
-          </section>
+
+  
+  <body>
+    <!--This is my nav bar-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Ben Yu</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li> 
+              </ul>
+            </div> 
+          </nav>  
         </div>
       </div>
+    </div>
+    <!--This is my intro text-->
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <h1 class="vertical"><p class="text-white">hi, this is my website.</p></h1>
+          <p>___</p> 
+          <h3 class="text-white"> engineer & free spirit
+        </div>
+     </div>
+    </div>
+    <!--This is my footer-->
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <h1><p class="text-white"></p></h1>
+        </div>
+     </div>
     </div>
   </body>
 </html>
