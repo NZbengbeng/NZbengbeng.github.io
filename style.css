@@ -1,13 +1,36 @@
-.navbar-brand {
-    text-align: center;
-  }
-  body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-color: #696969;
-    font-family: 'Oswald', sans-serif !important;
-  }
+ul.nav a:hover { color: #fff !important; }
+
+
+/* Animations */
+@keyframes switch-text {
+  0%  {opacity: 0;}
+  50% {opacity: 1;}
+  75% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#animate.run {
+  animation: switch-text 2s 1;
+  min-height: 13vmax;
+  font-size: 3vmax;
+}
+
+.generated {
+  color: pink;
+  margin: 0;
+  padding: 1vh 0 0 0;
+  text-align: center;
+  font-size: 5vmax;
+  min-height: 6vmax;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-color: #505050;
+  font-family: 'Oswald', sans-serif !important;
+}
   .navbar-inner {
     background:transparent;
   }
@@ -21,7 +44,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #696969;
+  background-color: #CDCDCD;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -73,3 +96,6 @@
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: pink;
+}
