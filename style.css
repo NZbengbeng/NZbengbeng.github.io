@@ -1,0 +1,75 @@
+.navbar-brand {
+    text-align: center;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: #696969;
+    font-family: 'Oswald', sans-serif !important;
+  }
+  .navbar-inner {
+    background:transparent;
+  }
+  .vertical{
+    margin-top:15%;
+  }
+  .sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #696969;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #818181;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.rounded-circle {
+    border-radius: 10%;
+    min-width: 40%;
+    min-height: 40%;
+    max-width: 60%;
+    max-height: 60%
+}
+
+.icon-images {
+  width: 20px;
+  height: auto;
+  transition: transform 0.2s ease-out;
+}
+
+.icon-images:hover {
+  transform: scale(1.5);
+}
+
+ body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
