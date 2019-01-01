@@ -30,6 +30,7 @@ generatedEl.addEventListener('animationend', () => {
 const makeContent = () => {
   generatedEl.innerText = helloChoices[cycleHello()] + "."
   document.getElementById("animate").style.color = getRandomColor();
+  document.getElementById("myBrand").style.color = getRandomColor();
 } 
 
 function getRandomColor() {
