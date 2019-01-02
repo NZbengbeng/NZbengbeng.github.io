@@ -5,7 +5,7 @@
 //const helloChoices = ["sleeping","on holiday", "in thailand", "working on my website", "being lazy", "on spotify", "moving to tokyo"]
 
 var helloChoices;
-helloChoices = ["in thailand","alive","on holiday", "developing my website", "relaxing", "listening to spotify", "eating", "not playing games"]
+helloChoices = ["in thailand","on holiday", "developing my website", "learning japanese", "listening to spotify", "sorting my life out","preparing for tokyo"]
 
 
 let counter = 0
@@ -65,4 +65,3 @@ function setRandomColor() {
   function myDemo() {
   document.getElementById("demo").innerHTML = "lol";
   }
-

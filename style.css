@@ -11,13 +11,31 @@ body {
   font-family: 'Oswald', sans-serif !important;
   position: relative; 
 }
-p {
+p,small {
   font-family: 'Roboto', sans-serif !important;
+  color: #F8F8F8 ;
+}
+a{
+  color: cyan;
+}
+a:hover {
+  color: white;
+  font-style: bold;
+  text-decoration: none;
 }
 .vertical{
     margin-top:15%;
 }
-
+/*resume icon*/
+#myresume
+{
+  font-family: 'Roboto', sans-serif !important;
+  font-size:12px;
+}
+#myresume a
+{
+    font-size:30px;
+}
 /*MAIN NAV BAR*/
 .navbar-toggler:focus, .navbar-toggler:active {
   outline: none;
@@ -136,8 +154,8 @@ p {
 .icon-images:hover {
   transform: scale(1.5);
 }
-
 /*sections for about.html, last section should have padding-bottom 5rem*/
+  #section0 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section1 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section2 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section3 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
