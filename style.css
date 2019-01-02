@@ -1,9 +1,37 @@
+/*Variables*/
+:root {
+  --main-bg-color: #555555; 
+}
 
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-color: var(--main-bg-color);
+  font-family: 'Oswald', sans-serif !important;
+  position: relative; 
+}
+p {
+  font-family: 'Roboto', sans-serif !important;
+}
+.vertical{
+    margin-top:15%;
+}
+
+/*MAIN NAV BAR*/
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-inner {
+  background:transparent;
+}
 .navbar a:hover{
-  color: pink !important;
+  color: cyan !important;
   text-decoration: underline
   border-bottom: 2px solid pink;
 }
+
 /*
 .navbar.center .navbar-inner {
     text-align: center;
@@ -14,6 +42,8 @@
     float: none;
 }*/
 
+/*Cool switch text css*/
+
 /* Animations */
 @keyframes switch-text {
   0%  {opacity: 0;}
@@ -21,13 +51,11 @@
   75% {opacity: 1;}
   100% {opacity: 0;}
 }
-
 #animate.run {
   animation: switch-text 2s 1;
   min-height: 11vmax;
   font-size: 2.5vmax;
 }
-
 .generated {
   color: pink;
   margin: 0;
@@ -36,20 +64,7 @@
   font-size: 4vmax;
   min-height: 5vmax;
 }
-
-body {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  background-color: #505050;
-  font-family: 'Oswald', sans-serif !important;
-}
-  .navbar-inner {
-    background:transparent;
-  }
-  .vertical{
-    margin-top:15%;
-  }
+/* Side nav not using anymore
   .sidenav {
   height: 100%;
   width: 20%;
@@ -91,15 +106,14 @@ body {
     max-width: 60%;
     max-height: 60%
 }
+*/
 
 /* Footer for ABOUT.HTML*/
-
 .bottom-bar li {
   display: inline-block;
   padding: 0 0.5rem;
   vertical-align: middle;
 }
-
 .bottom-bar {
   position: fixed;
   background-color: white;
@@ -108,29 +122,25 @@ body {
   left: 0;
   padding-right: 40px;
   text-align: center;
-  opacity: 0.75;
+  opacity: 1;
   /*height: var(--nav-height);*/
   height: 3rem;
 }
+/*Icon images in the footer, maybe will put icons in other places in future*/
 .icon-images {
   width: 25px;
   height: auto;
   transition: transform 0.2s ease-out;
   margin-top: 0.7rem !important;
 }
-
 .icon-images:hover {
   transform: scale(1.5);
 }
 
- body {
-      position: relative; 
-  }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #696969;}
-.navbar .brand, .navbar .nav > li > a:hover {
-    color: pink;
-}
+/*sections for about.html, last section should have padding-bottom 5rem*/
+  #section1 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
+  #section2 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
+  #section3 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
+  #section4 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
+  #section5 {padding-top:1rem;padding-bottom:5rem;color: #fff; background-color: var(--main-bg-color);}
+

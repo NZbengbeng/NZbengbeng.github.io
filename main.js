@@ -5,12 +5,16 @@
 //const helloChoices = ["sleeping","on holiday", "in thailand", "working on my website", "being lazy", "on spotify", "moving to tokyo"]
 
 var helloChoices;
-helloChoices = ["in thailand","alive","on holiday", "developing my website", "relaxing", "listening to spotify", "eating"]
+helloChoices = ["in thailand","alive","on holiday", "developing my website", "relaxing", "listening to spotify", "eating", "not playing games"]
 
 
 let counter = 0
 
 const cycleHello = () => {
+  //random cycle
+  //return (Math.floor(Math.random() * helloChoices.length))
+
+  //not random cycle 
   if (counter < helloChoices.length -1) {
     counter++
   } else {
