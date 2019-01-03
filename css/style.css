@@ -52,6 +52,18 @@ a:hover {
   text-decoration: underline
   border-bottom: 2px solid pink;
 }
+.preview{
+  color: white !important;
+  list-style-type: none;
+}
+.preview a:hover{
+  color: cyan !important;
+  cursor: pointer;
+  list-style-type: none;
+}/*blog.html*/
+.collapse, .in{
+  display: inline-block; text-align: left;
+}
 
 /*
 .navbar.center .navbar-inner {
