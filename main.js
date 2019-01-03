@@ -65,3 +65,4 @@ function setRandomColor() {
   function myDemo() {
   document.getElementById("demo").innerHTML = "lol";
   }
+

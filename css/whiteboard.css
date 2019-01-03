@@ -37,9 +37,10 @@ a:hover {
     font-size:30px;
 }
 /*MAIN NAV BAR*/
-.navbar-toggler:focus, .navbar-toggler:active {
+.navbar-toggler, .navbar-toggler,button.navbar-toggler {
   outline: none;
   box-shadow: none;
+  border-style: none;
 }
 .navbar-inner {
   background:transparent;
