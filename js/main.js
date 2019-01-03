@@ -5,7 +5,7 @@
 //const helloChoices = ["sleeping","on holiday", "in thailand", "working on my website", "being lazy", "on spotify", "moving to tokyo"]
 
 var helloChoices;
-helloChoices = ["in thailand","on holiday", "developing my website", "learning japanese", "drafting new projects","listening to spotify", "sorting my life out","preparing for tokyo"]
+helloChoices = ["in thailand","on holiday", "developing my website", "learning japanese", "listening to spotify", "sorting my life out","preparing for tokyo"]
 
 
 let counter = 0

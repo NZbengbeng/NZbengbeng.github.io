@@ -10,7 +10,6 @@ body {
   background-color: var(--main-bg-color);
   font-family: 'Oswald', sans-serif !important;
   position: relative; 
-  margin: 0px;
 }
 p,small {
   font-family: 'Roboto', sans-serif !important;
@@ -38,11 +37,9 @@ a:hover {
     font-size:30px;
 }
 /*MAIN NAV BAR*/
-/*remove border*/
-.navbar-toggler, .navbar-toggler,button.navbar-toggler {
+.navbar-toggler:focus, .navbar-toggler:active {
   outline: none;
   box-shadow: none;
-  border-style: none;
 }
 .navbar-inner {
   background:transparent;
@@ -64,6 +61,7 @@ a:hover {
 }*/
 
 /*Cool switch text css*/
+
 /* Animations */
 @keyframes switch-text {
   0%  {opacity: 0;}
