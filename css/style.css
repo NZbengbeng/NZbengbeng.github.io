@@ -62,7 +62,7 @@ a:hover {
   list-style-type: none;
 }/*blog.html*/
 .collapse, .in{
-  display: inline-block; text-align: left;
+  display: inline-block; text-align: left;  
 }
 
 /*
