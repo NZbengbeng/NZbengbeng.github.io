@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="css/style.css">
     <!--personal js-->
     <script src="js/main.js" async></script>
+    <script> myFunction() </script>
+
     <!-- personal fonts -->
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300:400:700" rel="stylesheet"> 
   </head>
 
-  <body>
+  <body onLoad="lastModifiedFunction();">
     <!--This is my main nav bar-->
     <div class="container">
           <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
@@ -37,7 +39,7 @@
                   <a class="nav-link"  href="picks.html">Picks</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link"  href="blog.html">Blog</a>
+                  <a class="nav-link"  href="critiques.html">Critiques</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link"  href="projects.html">Projects</a>
@@ -63,8 +65,16 @@
             <h3 class="generated run" id="animate">in thailand.</h3>
           </div>
        </div>
+       <div class ="row">
+          <div class="col" align="center">
+            last modified: <p id="lastmodified"></p>
+
+          </div>
+       </div>
       </div>
+
     </div>
+
    </div> 
   </body>
 </html>

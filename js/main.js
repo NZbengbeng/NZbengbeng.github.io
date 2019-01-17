@@ -59,9 +59,16 @@ function setRandomColor() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
   function openAboutSection() {
     document.getElementById("content").innerHTML = "whatever";
   }
   function myDemo() {
   document.getElementById("demo").innerHTML = "lol";
   }
+
+
+function lastModifiedFunction() {
+  var x= new Date(Date(document.lastModified)).toLocaleString();
+  document.getElementById("lastmodified").innerHTML = x;
+}

@@ -15,6 +15,7 @@ body {
 p,small {
   font-family: 'Roboto', sans-serif !important;
   color: #F8F8F8 ;
+  display:inline-block
 }
 a{
   color: cyan;
@@ -96,6 +97,7 @@ a:hover {
   font-size: 4vmax;
   min-height: 5vmax;
 }
+
 /* Side nav not using anymore
   .sidenav {
   height: 100%;
@@ -174,5 +176,6 @@ a:hover {
   #section2 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section3 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section4 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
+  #section6 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section5 {padding-top:1rem;padding-bottom:5rem;color: #fff; background-color: var(--main-bg-color);}
 
