@@ -41,6 +41,7 @@ a:hover {
 /*MAIN NAV BAR*/
 /*remove border*/
 .navbar-toggler, .navbar-toggler,button.navbar-toggler {
+  max-width: 50em;
   outline: none;
   box-shadow: none;
   border-style: none;
@@ -178,4 +179,7 @@ a:hover {
   #section4 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section6 {padding-top:1rem;color: #fff; background-color: var(--main-bg-color);}
   #section5 {padding-top:1rem;padding-bottom:5rem;color: #fff; background-color: var(--main-bg-color);}
+.container-fluid {
+  max-width: 50em;
+}
 
